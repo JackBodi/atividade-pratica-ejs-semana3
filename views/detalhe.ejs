@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Detalhes - <%= time.nome %></title>
+  </head>
+  //professor so para dizer que "<%= time.cor %>" aparece como sendo o erro mas
+  ele funciona perfeitamente bem.
+  <body>
+    <h1 style="color: <%= time.cor %>"><%= time.nome %></h1>
+
+    <ul>
+      <li><strong>ID:</strong> <%= time.id %></li>
+      <li><strong>Estádio:</strong> <%= time.estadio %></li>
+      <li><strong>Cidade:</strong> <%= time.cidade %></li>
+    </ul>
+
+    <a href="/times">Voltar para a lista de times</a>
+  </body>
+</html>
+//Pelo que entendi ele ignora o ejs e procura pelo css que no caso não ha,
+funciona porem ele só deixa como errado pq o vscode curte aloprar com o que é
+funcional. Tentei resolver ligando o copilot e ele mesmo disse isso que não tem
+erro algum, ou seja não ajudou e respondeu o que eu já sabia. Depois foi uma
+briga para tirar ele, pq ele estava pensado até por mim na primeira letra.
+Todavia descobri como tirar ele ctrl + shift + P , depois digitar copilot:
+disable, e como meu professor de quimica prof. Sidney falava: "E boa noite para
+Guaíba".
